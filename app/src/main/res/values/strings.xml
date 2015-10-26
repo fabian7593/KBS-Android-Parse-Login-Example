@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">KeyBellSoft</string>
+    <!-- Login -->
+    <string name="loginLblUsername">Username</string>
+    <string name="loginLblPassword">Password</string>
+    <string name="loginBtnLogin">Login</string>
+    <string name="userNotActive">This user is not active, please contact with KeyBellSoft</string>
+    <string name="userNotExist">This user not exist</string>
+    <string name="errorConnect">Error, please connect later</string>
+
+
+    <!-- Sign Up -->
+    <string name="signUpLblUsername">UserName</string>
+    <string name="signUpLblFullName">Full Name</string>
+    <string name="signUpLblLastName">Last Name</string>
+    <string name="signUpLblPassword">Password</string>
+    <string name="signUpLblConfirmPassword">Confirm Password</string>
+    <string name="signUpLblEmail">Email</string>
+    <string name="signUpLblPhone1">Phone</string>
+    <string name="signUpLblPhone2">Phone 2</string>
+    <string name="signUpLblIdentification">Indentification</string>
+    <string name="signUpLblUserType">User Type</string>
+    <string name="signUpLblSignUp">Sign Up</string>
+    <string name="signUpErrorToCreateUser">Error to create user</string>
+    <string name="signUpUserInsert">The user XX is inserted</string>
+
+    <!-- colorPrimaryDark is used for the status bar -->
+    <string name="LogoutBtn">Log Out</string>
+    <string name="Welcome">Welcome!</string>
+
+
+    <!-- General -->
+    <string name="generalAppName">KeyBellSoft</string>
+    <string name="generalSpinnerDefault">Select Item</string>
+    <string name="generalValueNull">Error: Value null</string>
+    <string name="generalRequiredFields">This field is required</string>
+</resources>

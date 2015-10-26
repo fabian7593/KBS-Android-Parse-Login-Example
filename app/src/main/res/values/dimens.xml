@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- layout activities -->
+    <dimen name="activity_margin">10sp</dimen>
+    <dimen name="activity_padding">10sp</dimen>
+
+    <!-- edit text -->
+    <dimen name="normal_edit_text_margin_top">10dp</dimen>
+    <dimen name="normal_component_margin_lateral">30dp</dimen>
+
+    <!-- font sizes -->
+    <dimen name="h0">30sp</dimen>
+    <dimen name="h1">20sp</dimen>
+    <dimen name="h2">18sp</dimen>
+    <dimen name="h3">16sp</dimen>
+    <dimen name="h4">14sp</dimen>
+    <dimen name="h5">12sp</dimen>
+
+
+    <!-- list rows -->
+    <dimen name="normal_row_height">40dp</dimen>
+    <dimen name="normal_row_height_2x">60dp</dimen>
+    <dimen name="normal_row_height_3x">80dp</dimen>
+
+    <!--normal spinner sizes-->
+    <dimen name="normal_spinner_row_height">40dp</dimen>
+
+    <!--normal list sizes-->
+    <dimen name="normal_divider_height_list">1dp</dimen>
+
+</resources>

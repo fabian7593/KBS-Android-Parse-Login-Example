@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Android-->
+    <color name="colorPrimary">#3E3E3D</color>3E3E3D
+    <color name="colorPrimaryDark">#9003A9F4</color>
+    <color name="colorAccent">#9000E5FF</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+
+    <!--Material Design-->
+    <color name="colorControlNormal">#FF78909C</color>
+    <color name="colorControlActivated">#FF03A9F4</color>
+    <color name="colorSwitchThumbNormal">#FF78909C</color>
+    <color name="colorPrimaryQuarter">#3303A9F4</color>
+    <color name="colorPrimaryHalf">#9003A9F4</color>
+    <color name="colorControlNormalHalf">#9078909C</color>
+    <color name="colorControlActivatedHalf">#9003A9F4</color>
+    <color name="colorAccentQuarter">#3300E5FF</color>
+    <color name="colorAccentHalf">#9000E5FF</color>
+
+    <color name="colorRequired">#FF0000</color>
+    <color name="colorGray">#ADAEB0</color>
+
+    <color name="colorListMainDetail">#0B5728</color>
+    <color name="colorListSubDetail">#4CA028</color>
+    <color name="colorListThirdDetail">#7BBE31</color>
+    <color name="colorListTitle">#3c3f41</color>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_margin"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.keybellsoft.parseexample.LoginActivity">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="@string/generalAppName"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/h0"
+        android:textStyle="bold" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_component_margin_lateral"
+        android:layout_marginRight="@dimen/normal_component_margin_lateral"
+        android:layout_marginTop="60dp">
+
+        <EditText
+            android:id="@+id/userLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/loginLblUsername"
+            android:inputType="textPersonName"
+            android:textSize="@dimen/h3" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_component_margin_lateral"
+        android:layout_marginRight="@dimen/normal_component_margin_lateral"
+        android:layout_marginTop="@dimen/normal_edit_text_margin_top">
+
+        <EditText
+            android:id="@+id/passwordLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/loginLblPassword"
+            android:inputType="textPassword"
+            android:textSize="@dimen/h3" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <com.rey.material.widget.Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/normal_component_margin_lateral"
+        android:layout_marginRight="@dimen/normal_component_margin_lateral"
+        android:layout_marginTop="60dp"
+        android:background="@color/colorAccent"
+        android:text="@string/loginBtnLogin"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/h3"
+        app:rd_enable="true" />
+
+</LinearLayout>

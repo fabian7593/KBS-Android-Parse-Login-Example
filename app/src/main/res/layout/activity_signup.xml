@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_margin"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        tools:context="com.keybellsoft.parseexample.LoginActivity">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/signUpLblSignUp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/h0"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/normal_component_margin_lateral"
+            android:layout_marginRight="@dimen/normal_component_margin_lateral"
+
+            android:layout_marginTop="@dimen/normal_edit_text_margin_top">
+
+            <EditText
+                android:id="@+id/identificationSignUp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/signUpLblIdentification"
+                android:inputType="number"
+                android:textSize="@dimen/h3" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/normal_component_margin_lateral"
+            android:layout_marginRight="@dimen/normal_component_margin_lateral"
+            android:layout_marginTop="@dimen/normal_edit_text_margin_top">
+
+            <EditText
+                android:id="@+id/nameSignUp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/signUpLblFullName"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/h3" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/normal_component_margin_lateral"
+            android:layout_marginRight="@dimen/normal_component_margin_lateral"
+            android:layout_marginTop="@dimen/normal_edit_text_margin_top">
+
+            <EditText
+                android:id="@+id/emailSignUp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/signUpLblEmail"
+                android:inputType="textEmailAddress"
+                android:textSize="@dimen/h3" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/normal_component_margin_lateral"
+            android:layout_marginRight="@dimen/normal_component_margin_lateral"
+            android:layout_marginTop="@dimen/normal_edit_text_margin_top">
+
+            <EditText
+                android:id="@+id/phone1SignUp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/signUpLblPhone1"
+                android:inputType="textPhonetic"
+                android:textSize="@dimen/h3" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/normal_component_margin_lateral"
+            android:layout_marginRight="@dimen/normal_component_margin_lateral"
+            android:layout_marginTop="@dimen/normal_edit_text_margin_top">
+
+            <EditText
+                android:id="@+id/userSignUp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/signUpLblUsername"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/h3" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/normal_component_margin_lateral"
+            android:layout_marginRight="@dimen/normal_component_margin_lateral"
+            android:layout_marginTop="@dimen/normal_edit_text_margin_top">
+
+            <EditText
+                android:id="@+id/passwordSignUp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/signUpLblPassword"
+                android:inputType="textPassword"
+                android:textSize="@dimen/h3" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <com.rey.material.widget.Spinner
+            android:id="@+id/userTypeSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/normal_component_margin_lateral"
+            android:layout_marginRight="@dimen/normal_component_margin_lateral"
+            android:layout_marginTop="@dimen/normal_edit_text_margin_top"
+            android:padding="3dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            app:rd_cornerRadius="1dp"
+            app:rd_delayClick="afterRelease"
+            app:rd_maskType="rectangle"
+            app:rd_rippleAnimDuration="300"
+            app:rd_rippleColor="@color/colorAccent"
+            app:rd_style="@style/Material.Drawable.Ripple.Wave"
+            app:spn_arrowAnimDuration="@android:integer/config_shortAnimTime"
+            app:spn_arrowColor="@color/colorAccent"
+            app:spn_arrowInterpolator="@android:anim/decelerate_interpolator"
+            app:spn_arrowPadding="6dp"
+            app:spn_arrowSize="6dp"
+            app:spn_arrowSwitchMode="true"
+            app:spn_dividerAnimDuration="@android:integer/config_shortAnimTime"
+            app:spn_dividerColor="@color/colorAccent"
+            app:spn_dividerHeight="3dp"
+            app:spn_label="@string/signUpLblUserType"
+            app:spn_labelEnable="true"
+            app:spn_labelPadding="6dp"
+            app:spn_labelTextColor="@color/colorAccent"
+            app:spn_labelTextSize="@dimen/h5" />
+
+
+        <com.rey.material.widget.Button
+            android:id="@+id/buttonSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="@dimen/normal_component_margin_lateral"
+            android:layout_marginRight="@dimen/normal_component_margin_lateral"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorAccent"
+            android:text="@string/signUpLblSignUp"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/h3"
+            app:rd_enable="true" />
+
+    </LinearLayout>
+</ScrollView>
