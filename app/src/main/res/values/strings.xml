@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">KeyBellSoft</string>
+    <string name="app_name">Global Transport</string>
     <!-- Login -->
     <string name="loginLblUsername">Username</string>
     <string name="loginLblPassword">Password</string>
     <string name="loginBtnLogin">Login</string>
-    <string name="userNotActive">This user is not active, please contact with KeyBellSoft</string>
+    <string name="userNotActive">This user is not active, please contact with Zanella Company</string>
     <string name="userNotExist">This user not exist</string>
     <string name="errorConnect">Error, please connect later</string>
 
@@ -13,6 +13,7 @@
     <string name="signUpLblUsername">UserName</string>
     <string name="signUpLblFullName">Full Name</string>
     <string name="signUpLblLastName">Last Name</string>
+    <string name="signUpLblBirthDate">Birth Date</string>
     <string name="signUpLblPassword">Password</string>
     <string name="signUpLblConfirmPassword">Confirm Password</string>
     <string name="signUpLblEmail">Email</string>
@@ -30,8 +31,19 @@
 
 
     <!-- General -->
-    <string name="generalAppName">KeyBellSoft</string>
+    <string name="generalAppName">Global Transport</string>
     <string name="generalSpinnerDefault">Select Item</string>
     <string name="generalValueNull">Error: Value null</string>
     <string name="generalRequiredFields">This field is required</string>
+    <string name="generalSuccessfull">Successfull</string>
+    <string name="generalRequired">Please review required fields</string>
+
+
+
+    //sweet dialog
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="LOADING">Loading...</string>
+    <string name="default_progressbar">Default Progressbar:</string>
 </resources>

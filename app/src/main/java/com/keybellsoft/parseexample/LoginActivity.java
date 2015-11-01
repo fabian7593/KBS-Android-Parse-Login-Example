@@ -42,7 +42,10 @@ public class LoginActivity extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         setView();
-        connectionUser();
+        try {
+            connectionUser();
+        }catch (Exception io)
+        {}
         ParseUser.logOut();
         // PushService.setDefaultPushCallback(this,LoginActivity.class);
     }
@@ -98,7 +101,7 @@ public class LoginActivity extends AppCompatActivity implements
                                     Object isActive = objectUser.get(StaticsEntities.USER_ISACTIVE);
                                     if (isActive != null) {
                                         if ((boolean) isActive) {
-                                            //go to another page
+                                            Toast.makeText(LoginActivity.this, "Listo entro!!! ", Toast.LENGTH_LONG).show();
                                         } else {
                                             Toast.makeText(LoginActivity.this, R.string.userNotActive, Toast.LENGTH_LONG).show();
                                         }

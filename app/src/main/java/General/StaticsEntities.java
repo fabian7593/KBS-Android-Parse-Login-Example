@@ -29,6 +29,7 @@ public class StaticsEntities {
     public static final String USER_PHONE="phone1";
     public static final String USER_USERTYPE="userType";
     public static final String USER_FULLNAME="fullName";
+    public static final String USER_BIRTHDATE="birthDate";
 
 
     //UserType

@@ -12,7 +12,7 @@
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:orientation="vertical"
-        tools:context="com.keybellsoft.parseexample.LoginActivity">
+        tools:context="com.coorporacionzanella.taximetro.LoginActivity">
 
         <TextView
             android:layout_width="250dp"
@@ -38,7 +38,8 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/signUpLblIdentification"
-                android:inputType="number"
+                android:inputType="textPhonetic"
+
                 android:textSize="@dimen/h3" />
         </android.support.design.widget.TextInputLayout>
 
@@ -54,7 +55,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/signUpLblFullName"
-                android:inputType="textPersonName"
+                android:inputType="textCapSentences"
                 android:textSize="@dimen/h3" />
         </android.support.design.widget.TextInputLayout>
 
@@ -125,6 +126,26 @@
         </android.support.design.widget.TextInputLayout>
 
 
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/h3"
+            android:layout_marginLeft="@dimen/normal_component_margin_lateral"
+            android:layout_marginRight="@dimen/normal_component_margin_lateral"
+            android:layout_marginTop="@dimen/normal_edit_text_margin_top">
+
+            <EditText
+                android:id="@+id/birthDateSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusableInTouchMode="false"
+                android:hint="@string/signUpLblBirthDate"
+                android:textSize="@dimen/h3"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
         <com.rey.material.widget.Spinner
             android:id="@+id/userTypeSignUp"
             android:layout_width="match_parent"
@@ -153,7 +174,12 @@
             app:spn_labelEnable="true"
             app:spn_labelPadding="6dp"
             app:spn_labelTextColor="@color/colorAccent"
-            app:spn_labelTextSize="@dimen/h5" />
+            app:spn_labelTextSize="@dimen/h5"
+            app:spn_labelEllipsize="end"
+            app:spn_popupItemAnimOffset="120"
+            app:spn_popupItemAnimation="@anim/abc_slide_in_bottom"
+
+            />
 
 
         <com.rey.material.widget.Button
