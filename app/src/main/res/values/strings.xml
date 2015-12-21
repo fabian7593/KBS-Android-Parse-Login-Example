@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Global Transport</string>
+    <string name="app_name">Android Parse Example</string>
     <!-- Login -->
     <string name="loginLblUsername">Username</string>
     <string name="loginLblPassword">Password</string>
     <string name="loginBtnLogin">Login</string>
-    <string name="userNotActive">This user is not active, please contact with Zanella Company</string>
+    <string name="userNotActive">This user is not active, please contact with your Company</string>
     <string name="userNotExist">This user not exist</string>
     <string name="errorConnect">Error, please connect later</string>
 
@@ -31,7 +31,7 @@
 
 
     <!-- General -->
-    <string name="generalAppName">Global Transport</string>
+    <string name="generalAppName">Android Parse Example</string>
     <string name="generalSpinnerDefault">Select Item</string>
     <string name="generalValueNull">Error: Value null</string>
     <string name="generalRequiredFields">This field is required</string>

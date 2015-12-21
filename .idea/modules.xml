@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/KBS-Android-Parse-Login-Example.iml" filepath="$PROJECT_DIR$/KBS-Android-Parse-Login-Example.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/parse example.iml" filepath="$PROJECT_DIR$/parse example.iml" />
     </modules>
   </component>
 </project>

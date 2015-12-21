@@ -19,8 +19,8 @@ import com.parse.ParseObject;
  */
 public class ConnectParseClass extends Application {
 
-    private static final String sApplicationId="XX";
-    private static final String sClienId="XX";
+    private static final String sApplicationId="8laFx82XJYJZ4bnOGNyQDYcEeisNcmqxrtD3vpXq";
+    private static final String sClienId="JjTbaN1xB5WJhOweqip2QwXkG7jvi8wMmVkjZ0pq";
 
     public void onCreate(){
         super.onCreate();

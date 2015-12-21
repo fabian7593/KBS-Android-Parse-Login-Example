@@ -146,8 +146,10 @@
         </android.support.design.widget.TextInputLayout>
 
 
+
         <com.rey.material.widget.Spinner
             android:id="@+id/userTypeSignUp"
+            style="@style/LightSpinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/normal_component_margin_lateral"
@@ -155,31 +157,9 @@
             android:layout_marginTop="@dimen/normal_edit_text_margin_top"
             android:padding="3dp"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
-            app:rd_cornerRadius="1dp"
-            app:rd_delayClick="afterRelease"
-            app:rd_maskType="rectangle"
-            app:rd_rippleAnimDuration="300"
-            app:rd_rippleColor="@color/colorAccent"
+            android:spinnerMode="dialog"
             app:rd_style="@style/Material.Drawable.Ripple.Wave"
-            app:spn_arrowAnimDuration="@android:integer/config_shortAnimTime"
-            app:spn_arrowColor="@color/colorAccent"
-            app:spn_arrowInterpolator="@android:anim/decelerate_interpolator"
-            app:spn_arrowPadding="6dp"
-            app:spn_arrowSize="6dp"
-            app:spn_arrowSwitchMode="true"
-            app:spn_dividerAnimDuration="@android:integer/config_shortAnimTime"
-            app:spn_dividerColor="@color/colorAccent"
-            app:spn_dividerHeight="3dp"
-            app:spn_label="@string/signUpLblUserType"
-            app:spn_labelEnable="true"
-            app:spn_labelPadding="6dp"
-            app:spn_labelTextColor="@color/colorAccent"
-            app:spn_labelTextSize="@dimen/h5"
-            app:spn_labelEllipsize="end"
-            app:spn_popupItemAnimOffset="120"
-            app:spn_popupItemAnimation="@anim/abc_slide_in_bottom"
-
-            />
+            app:spn_label="@string/signUpLblUserType" />
 
 
         <com.rey.material.widget.Button

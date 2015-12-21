@@ -176,8 +176,9 @@ public class SignUpActivity extends AppCompatActivity implements
     private static List<String> itemSpinner = new ArrayList<String>();
 
     public void chargueUserTypes() {
+        itemSpinner.clear();
         ParseQuery<ParseObject> query = new ParseQuery<>(tableUserType);
-        query.whereNotEqualTo(StaticsEntities.GENERAL_OBJECTID, "Pm5QAlPCMz");
+        //query.whereNotEqualTo(StaticsEntities.GENERAL_OBJECTID, "Pm5QAlPCMz");
         query.findInBackground(new FindCallback<ParseObject>() {
             public void done(List<ParseObject> userTypeList, ParseException e) {
                 com.rey.material.widget.Spinner spinnerUserType = (com.rey.material.widget.Spinner) findViewById(R.id.userTypeSignUp);
@@ -190,8 +191,8 @@ public class SignUpActivity extends AppCompatActivity implements
                             itemSpinner.add((String) objUserTypeName);
                         }
                     }
-                    ArrayAdapter<String> adapter = new ArrayAdapter<>(SignUpActivity.this, R.layout.activity_signup_spinner_detail, itemSpinner);
-                    adapter.setDropDownViewResource(R.layout.activity_signup_spinner_detail_dropdown);
+                    ArrayAdapter<String> adapter = new ArrayAdapter<>(SignUpActivity.this, R.layout.row_spn, itemSpinner);
+                    adapter.setDropDownViewResource(R.layout.row_spn_dropdown);
                     spinnerUserType.setAdapter(adapter);
                 } else {
                     Toast.makeText(SignUpActivity.this, e.toString(), Toast.LENGTH_LONG).show();
@@ -265,11 +266,6 @@ public class SignUpActivity extends AppCompatActivity implements
                     }
                 }
             });
-
-            /*new SweetAlertDialog(this, SweetAlertDialog.SUCCESS_TYPE)
-                    .setTitleText(getString(R.string.generalSuccessfull))
-                    .setContentText("se inserto el usuario")
-                    .show();*/
 
         } catch (Exception e) {
             Toast.makeText(SignUpActivity.this, e.toString(), Toast.LENGTH_LONG).show();
